@@ -108,11 +108,12 @@
     <main class="mx-36 my-6">
       <!-- About Us Section -->
       <img class="hidden lg:block" src="assets/Vector.png" alt="">
-      <div class="grid grid-cols-1 lg:grid-cols-2 justify-center mb-24">
+      <div class="grid grid-cols-1 lg:grid-cols-2 justify-center mb-24 w-full overflow-hidden mx-auto">
         <!-- about us text -->
-        <div class="max-w-[600px] w-full">
+        <div class="max-w-[600px] w-full flex flex-col items-center justify-center">
           <div class="max-w-[600px] w-full max-h-[240px] h-full">
-            <button class="flex rounded-xl h-9 w-28 bg-white justify-center text-center mb-4 ">
+            <!-- about button -->
+            <button class="flex rounded-xl h-9 w-28 bg-white justify-center  mb-4 ">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                 </svg>About Us
@@ -122,7 +123,7 @@
               modern sophistication, featuring weathered wood, sleek metal accents.</p>
           </div>
             <!-- Commercial card -->
-          <div class="bg-white rounded-xl mb-6 max-w-[600px] flex p-7 gap-4">
+          <div class="bg-white rounded-xl mb-6 max-w-[600px] flex p-9 space-y-4">
             <div>
               <img class="object-fill" src="assets/commercial.png" alt="">
             </div>
@@ -132,7 +133,7 @@
             </div>
           </div>
           <!-- Residential 1 -->
-          <div class="bg-white rounded-xl mb-6 max-w-[600px] flex p-7 gap-4">
+          <div class="bg-white rounded-xl mb-6 max-w-[600px] flex p-8 space-y-4">
             <div>
               <img src="assets/residential.png" alt="">
             </div>
@@ -144,10 +145,61 @@
         </div>
         <!-- about us image -->
         <div class="rounded-lg">
-         <img class="max-w-[573px] max-h-[560px] object-fill" src="assets/Rectangle.png" alt="">
+         <img src="assets/Rectangle.png" alt="">
         </div>
       </div>
-      <!--  -->
+      <!-- How We Work -->
+      <div class="space-y-4">
+        <!-- work button -->
+        <div class="flex items-center justify-center">
+          <button class="flex bg-white rounded-xl p-1 ">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>How we work
+          </button>
+        </div>
+        <!-- work title -->
+        <h3 class="text-5xl font-extrabold text-center">Our Work Process</h3>
+        <p class="text-lg text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
+        <!-- Card Container -->
+         <section class="pb-24 mx-auto w-full">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto">
+            <!-- Card 1 -->
+            <div class="card card-compact shadow-xl p-6 max-w-[275px] max-h-[220px] bg-[#E7C1D3] my-6">
+              <img class="w-12 h-12" src="assets/concept.png" alt="concept" />
+              <div class="card-body">
+                <h2 class="card-title font-bold">Concept</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card card-compact shadow-xl p-6 max-w-[275px] max-h-[220px] bg-[#EFDA6E] my-6">
+              <img class="w-12 h-12" src="assets/flow-chart.png" alt="concept" />
+              <div class="card-body">
+                <h2 class="card-title font-bold">Design Process</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card card-compact shadow-xl p-6 max-w-[275px] max-h-[220px] bg-[#A4DAC3] my-6">
+              <img class="w-12 h-12" src="assets/vision.png" alt="concept" />
+              <div class="card-body">
+                <h2 class="card-title font-bold">Supervision</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="card card-compact shadow-xl p-6 max-w-[275px] max-h-[220px] bg-[#77AAEA] my-6">
+              <img class="w-12 h-12" src="assets/budget-planning.png" alt="concept" />
+              <div class="card-body">
+                <h2 class="card-title font-bold">Budget Planning</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+          </div>
+         </section>
+      </div>
+      <!-- Lates Portfolio -->
 
     </main>
     <footer>
